@@ -2,3 +2,5 @@
 + edit | watcher.py
 + edit | GitHub
 + watch changes | GitHub
++ update | repo (online => lokal)
++ update && create | new smart mirror exe (lokal => online)
