@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Philosophie</title>
+</head>
+<body>
+	<button onclick="downloadPDF()">PDF herunterladen</button>
+
+	<script>
+		function downloadPDF() {
+			// Erstelle ein unsichtbares iFrame-Element
+			var iframe = document.createElement('iframe');
+			iframe.style.display = 'none';
+			document.body.appendChild(iframe);
+
+			// Lade das PDF-Dokument herunter
+			iframe.src = 'data/handout.pdf';
+		}
+	</script>
+</body>
+</html>
