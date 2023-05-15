@@ -1,3 +1,0 @@
-Die nächste Aufgabe kommt jetzt!
-Für die nächst Aufgabe musst du ein html script ptogramieren. Die Website soll einen ifrme beinhalten auf dem ein yt video läuft.
-Außerdem soll man einen 
