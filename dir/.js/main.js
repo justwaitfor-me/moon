@@ -14,7 +14,7 @@ let lastname = 'Wait';
 let string = "this is a string";
 let integer = 30;
 let boolean = false; //or true
-let undefined; // undefined (let undefined = undefined;)
+let notdefined; // undefined (let undefined = undefined;)
 let variable = null; // null is a placeholder, change it afterward
 
 // Step 3: const
@@ -22,7 +22,7 @@ let variable = null; // null is a placeholder, change it afterward
 const Rate = 0.3;
 console.log(Rate); //out: 0.3
 
-// Step 4: object
+// Step 4: Object
 let /*or cost*/ person = {
     name: /*this is the key*/ "JustWait", /*this is the value*/
     age: 14
@@ -48,7 +48,7 @@ console.log(Arrey); //out: [ 'test1', 'test2' ]
 console.log(Arrey[0]/*this is the index. The Index starts at 0*/); //out: test1
 console.log(Arrey[1]); //out: test2
 
-//Step 5.2 change or add an object by the index
+//Step 5.2 Change or add an object by the index
     //add
 Arrey[2] = "test3";
 console.log(Arrey); //out: [ 'test1', 'test2', 'test3' ]
@@ -87,3 +87,22 @@ function happy3(number1, number2) { //start
 }           	                    //end
 
 console.log(happy3(6, 8)) //print the Answer by Calling the Function wit parameters //out: 14
+
+//Step 7: innerHTML
+    //get
+let html = document.getElementById("titel_1" /*This is the ObjectId*/).innerHTML; //get the HTML out of an HTML Code and save as a variable
+console.log(html); //print the code inside the tag //out: Hi, User!
+    //change
+document.getElementById("change_1").innerHTML = "javascript is != Java"; //change the Content of an HTML Tag
+    //save in a variable 
+const element_1 = document.getElementById("titel_1"); //Save a HTML Element in an variable
+const element_2 = document.getElementById("Input_1");
+    //call from HTML / get from HTML
+function getValue() {                    //start
+    var inputField = element_2; //save the Input Field
+    var name = inputField.value; //save the value of the Input Field
+    console.log(name); //print the Inputfrom HTML
+    element_1.innerHTML = "Hi, " + name; //change the title to the entry
+    element_2.disabled = true;
+}                                       //end
+
