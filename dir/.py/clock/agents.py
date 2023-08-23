@@ -1,5 +1,3 @@
-
-
 import valorant
 
 client = valorant.Client('RGAPI-ee17db31-4711-4fc6-8697-3a896bc4ed98')
