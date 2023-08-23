@@ -72,6 +72,7 @@ integer = {
 
 webhook_url = my_secret = os.environ['URL']
 message_id = "1141466319162708041"
+api = "RGAPI-30a522d7-2b04-4bc9-8391-21332c1604e3"
 
 def split_variable(string):
     lines = string.split("\n")
